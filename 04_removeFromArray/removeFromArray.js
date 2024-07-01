@@ -3,8 +3,8 @@
 //const array = [1, 2, 3, 3, 4, 6, 6, "hey", "yo"];
 //const itemsToDelete = [3];
 
-const removeFromArray = function(array, ...arguments) {
-  	const itemsToDelete = [...arguments];
+const removeFromArray = function(array, ...theArgs) {
+  	const itemsToDelete = [...theArgs];
   	const filteredArray = []
 
     //console.log("Items To Delete: " + itemsToDelete);
